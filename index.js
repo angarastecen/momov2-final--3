@@ -88,7 +88,7 @@ client.giveawaysManager.on(
           .setDescription(
             `Your entery to [This Giveaway](https://discord.com/channels/${giveaway.guildID}/${giveaway.channelID}/${giveaway.messageID}) has been approved!`
           )
-          .setFooter("Coded By Immortal")
+          .setFooter("Coded By Steven")
           .setTimestamp()
       );
     } catch (error) {
@@ -101,7 +101,7 @@ client.giveawaysManager.on(
           .setDescription(
             `Your entery to [This Giveaway](https://discord.com/channels/${giveaway.guildID}/${giveaway.channelID}/${giveaway.messageID}) has been denied as you did not join **${guildx.name}**`
           )
-          .setFooter("Coded By immortal")
+          .setFooter("Coded By Steven")
       );
     }
   }
@@ -153,4 +153,4 @@ client.on('message', async (message) => {
 }
 })
 
-client.login(process.env.token);
+client.login(process.env.TOKEN);
