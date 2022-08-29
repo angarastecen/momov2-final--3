@@ -1,6 +1,6 @@
 {
   "token": "YOUR_BOT_TOKEN",
-  "prefix": "l!",
+  "prefix": "?",
   "b_id": "157652",
   "b_key": "Enr5H7upyFrdF61Y",
   "ownerID": "841901577811001367",
@@ -54,7 +54,7 @@
     "mcompand": "mcompand",
     "earrape": "bass=g=50"
   },
-  "footertext": "Coded By IMMORTAL",
+  "footertext": "Coded By Steven",
   "colors": {
     "yes": "BLUE",
     "no": "RED"
